@@ -1,0 +1,107 @@
+<!-- Página principal do portfólio -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Metadados da página -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <!-- Link para o arquivo de estilo -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho da página -->
+    <header>
+        <h1>Meu Portfólio</h1>
+        <!-- Imagem do perfil -->
+        <img src="images/joao.jpg" alt="Imagem do perfil" class="profile-image">
+    </header>
+    <!-- Seção principal da página -->
+    <main>
+        <!-- Seção sobre mim -->
+        <section id="about">
+            <h2>Sobre Mim</h2>
+            <!-- Texto sobre mim -->
+            <p>Olá, eu sou João Silva. Estou estudando desenvolvimento de sistemas e estou ansioso para mostrar meus projetos e habilidades.</p>
+        </section>
+        <!-- Seção de escolaridade -->
+        <section id="education">
+            <h2>Escolaridade</h2>
+            <!-- Lista de escolaridade -->
+            <ul>
+                <li>
+                    <!-- Nome da escola -->
+                    <h3>Universidade Federal do Rio de Janeiro</h3>
+                    <!-- Ano de início e término -->
+                    <p>2018 - 2022</p>
+                </li>
+                <li>
+                    <!-- Nome da escola -->
+                    <h3>Colégio Estadual do Rio de Janeiro</h3>
+                    <!-- Ano de início e término -->
+                    <p>2015 - 2018</p>
+                </li>
+            </ul>
+        </section>
+        <!-- Seção de hobbies -->
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <!-- Lista de hobbies -->
+            <ul>
+                <li>Futebol</li>
+                <li>Leitura</li>
+                <li>Viagem</li>
+            </ul>
+        </section>
+        <!-- Seção de sonhos -->
+        <section id="dreams">
+            <h2>Meus Sonhos</h2>
+            <!-- Área de texto para escrever sobre os sonhos -->
+            <textarea placeholder="Escreva sobre seus sonhos e objetivos">Quero trabalhar em uma empresa de tecnologia e desenvolver projetos inovadores que melhorem a vida das pessoas.</textarea>
+        </section>
+        <!-- Seção do carrossel -->
+        <section id="carousel">
+            <h2>Meus Projetos</h2>
+            <!-- Container do carrossel -->
+            <div class="carousel-container">
+                <!-- Imagens do carrossel -->
+                <div class="carousel-inner">
+                    <img src="carousel/project1.jpg" alt="Imagem 1">
+                    <img src="carousel/project2.jpg" alt="Imagem 2">
+                    <img src="carousel/project3.jpg" alt="Imagem 3">
+                </div>
+                <!-- Botões de navegação do carrossel -->
+                <button class="carousel-prev">‹</button>
+                <button class="carousel-next">›</button>
+            </div>
+        </section>
+        <!-- Seção de redes sociais -->
+        <section id="social-media">
+            <h2>Redes Sociais</h2>
+            <!-- Lista de redes sociais -->
+            <ul>
+                <li>
+                    <!-- Ícone do Facebook -->
+                    <a href="#" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li>
+                    <!-- Ícone do Instagram -->
+                    <a href="#" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <!-- Ícone do Twitter -->
+                    <a href="#" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <!-- Script para adicionar interatividade ao carrossel -->
+    <script src="script.js"></script>
+</body>
+</html>
